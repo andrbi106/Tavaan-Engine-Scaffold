@@ -6,11 +6,11 @@ namespace Tavaan\Engine\Scaffold;
 
 final class GeneratorManager
 {
-    public function generate(/* ... */): mixed
+    public function generate()
     {
         return null;
     }
-    public function register(/* ... */): mixed
+    public function register(): self
     {
         
     }
