@@ -12,6 +12,6 @@ final class GeneratorManager
     }
     public function register(/* ... */): mixed
     {
-        return null;
+        
     }
 }
