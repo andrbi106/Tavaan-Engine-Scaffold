@@ -7,18 +7,18 @@ namespace Tavaan\Engine\Scaffold\Console;
 use Tavaan\Core\Contracts\Console\CommandInterface;
 
 /**
- * make:request command.
+ * make:model command.
  */
-final class Make_requestCommand implements CommandInterface
+final class MakeModelCommand implements CommandInterface
 {
     public function name(): string
     {
-        return 'make:request';
+        return 'make:model';
     }
 
     public function description(): string
     {
-        return 'Run make:request (TODO: fill description).';
+        return 'Run make:model (TODO: fill description).';
     }
 
     public function handle(array $args = []): int

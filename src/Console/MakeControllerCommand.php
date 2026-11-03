@@ -7,18 +7,18 @@ namespace Tavaan\Engine\Scaffold\Console;
 use Tavaan\Core\Contracts\Console\CommandInterface;
 
 /**
- * make:middleware command.
+ * make:controller command.
  */
-final class Make_middlewareCommand implements CommandInterface
+final class MakeControllerCommand implements CommandInterface
 {
     public function name(): string
     {
-        return 'make:middleware';
+        return 'make:controller';
     }
 
     public function description(): string
     {
-        return 'Run make:middleware (TODO: fill description).';
+        return 'Run make:controller (TODO: fill description).';
     }
 
     public function handle(array $args = []): int

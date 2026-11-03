@@ -7,18 +7,18 @@ namespace Tavaan\Engine\Scaffold\Console;
 use Tavaan\Core\Contracts\Console\CommandInterface;
 
 /**
- * make:listener command.
+ * make:job command.
  */
-final class Make_listenerCommand implements CommandInterface
+final class MakeJobCommand implements CommandInterface
 {
     public function name(): string
     {
-        return 'make:listener';
+        return 'make:job';
     }
 
     public function description(): string
     {
-        return 'Run make:listener (TODO: fill description).';
+        return 'Run make:job (TODO: fill description).';
     }
 
     public function handle(array $args = []): int

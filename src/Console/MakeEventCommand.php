@@ -7,18 +7,18 @@ namespace Tavaan\Engine\Scaffold\Console;
 use Tavaan\Core\Contracts\Console\CommandInterface;
 
 /**
- * make:migration command.
+ * make:event command.
  */
-final class Make_migrationCommand implements CommandInterface
+final class MakeEventCommand implements CommandInterface
 {
     public function name(): string
     {
-        return 'make:migration';
+        return 'make:event';
     }
 
     public function description(): string
     {
-        return 'Run make:migration (TODO: fill description).';
+        return 'Run make:event (TODO: fill description).';
     }
 
     public function handle(array $args = []): int

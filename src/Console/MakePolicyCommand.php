@@ -7,18 +7,18 @@ namespace Tavaan\Engine\Scaffold\Console;
 use Tavaan\Core\Contracts\Console\CommandInterface;
 
 /**
- * make:job command.
+ * make:policy command.
  */
-final class Make_jobCommand implements CommandInterface
+final class MakePolicyCommand implements CommandInterface
 {
     public function name(): string
     {
-        return 'make:job';
+        return 'make:policy';
     }
 
     public function description(): string
     {
-        return 'Run make:job (TODO: fill description).';
+        return 'Run make:policy (TODO: fill description).';
     }
 
     public function handle(array $args = []): int

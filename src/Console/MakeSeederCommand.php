@@ -9,7 +9,7 @@ use Tavaan\Core\Contracts\Console\CommandInterface;
 /**
  * make:seeder command.
  */
-final class Make_seederCommand implements CommandInterface
+final class MakeSeederCommand implements CommandInterface
 {
     public function name(): string
     {

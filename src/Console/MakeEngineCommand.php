@@ -7,18 +7,18 @@ namespace Tavaan\Engine\Scaffold\Console;
 use Tavaan\Core\Contracts\Console\CommandInterface;
 
 /**
- * make:resource command.
+ * make:engine command.
  */
-final class Make_resourceCommand implements CommandInterface
+final class MakeEngineCommand implements CommandInterface
 {
     public function name(): string
     {
-        return 'make:resource';
+        return 'make:engine';
     }
 
     public function description(): string
     {
-        return 'Run make:resource (TODO: fill description).';
+        return 'Run make:engine (TODO: fill description).';
     }
 
     public function handle(array $args = []): int
