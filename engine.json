@@ -41,5 +41,6 @@
     "make:middleware"
   ],
   "docs": "docs/03-engines/scaffold.md",
-  "notes": "M8/TVN-0077: Stub engine خودنوشته ({{var}}/{{#if}}/{{#unless}}/{{#each}})، ۱۷ Generator، idempotent با --force + backup .bak، sandbox مسیر (path traversal → رد)."
+  "notes": "M8/TVN-0077: Stub engine خودنوشته ({{var}}/{{#if}}/{{#unless}}/{{#each}})، ۱۷ Generator، idempotent با --force + backup .bak، sandbox مسیر (path traversal → رد).",
+  "class": "Tavaan\\Engine\\Scaffold\\ScaffoldEngine"
 }
